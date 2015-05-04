@@ -7,7 +7,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class parameterTest {
+public class ParameterTest {
 
 	private FirefoxDriver driver;
 

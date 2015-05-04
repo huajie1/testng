@@ -3,7 +3,7 @@ package com.testerhome;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class test {
+public class SimpleTest {
 	
 	@Test
 	@Parameters({"param1","param2"})

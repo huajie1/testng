@@ -3,7 +3,7 @@
    <parameter name="baseurl" value="http://www.baidu.com"></parameter>
    <test name="test4">
 		<classes>
-			<class name="com.testerhome.dataProviderTest"/>
+			<class name="com.testerhome.DataProviderTest"/>
 		</classes>
 	</test>
 </suite>

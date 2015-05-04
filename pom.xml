@@ -12,26 +12,10 @@
 			<version>6.1.1</version>
 		</dependency>
 		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.12</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
 		</dependency>
 	</dependencies>
-	<plugins>
-		<plugin>
-			<artifactId>maven-surefire-plugin</artifactId>
-			<configuration>
-				<suiteXmlFiles>
-					<suiteXmlFile>testng.xml</suiteXmlFile>
-				</suiteXmlFiles>
-			</configuration>
-		</plugin>
-	</plugins>
 
 	<dependencyManagement>
 		<dependencies>

@@ -4,7 +4,7 @@
 		<parameter name="param1" value="study" />
 		<parameter name="param2" value="together" />
 		<classes>
-			<class name="com.testerhome.test" />
+			<class name="com.testerhome.SimpleTest" />
 		</classes>
 	</test>
 </suite>

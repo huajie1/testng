@@ -5,7 +5,7 @@
    <parameter name="keyword" value="testng" />
    <test name="searchtest" preserve-order="true">
        <classes>
-           <class name="com.testerhome.parameterTest">
+           <class name="com.testerhome.ParameterTest">
                <methods>
                    <include name="openBrowser" />
                    <include name="search" />
