@@ -25,9 +25,9 @@ public class loginAndExitTest{
     driver.get(baseUrl);
     driver.findElement(By.xpath("//a[text()='µÇÂ¼']")).click();
     driver.findElement(By.xpath("//input[@id='user_login']")).clear();
-    driver.findElement(By.xpath("//input[@id='user_login']")).sendKeys("ÄãµÄÕÊºÅ");
+    driver.findElement(By.xpath("//input[@id='user_login']")).sendKeys("luguo_");
     driver.findElement(By.xpath("//input[@id='user_password']")).clear();
-    driver.findElement(By.xpath("//input[@id='user_password']")).sendKeys("ÄãµÄÃÜÂë");
+    driver.findElement(By.xpath("//input[@id='user_password']")).sendKeys("limaohua071110");
     driver.findElement(By.name("commit")).click();
     driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);	
     driver.findElement(By.xpath("//*[text()='ÍË³ö']")).click();
