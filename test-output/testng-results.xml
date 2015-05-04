@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15887" started-at="2015-05-01T03:40:23Z" finished-at="2015-05-01T03:40:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15887" started-at="2015-05-01T03:40:23Z" finished-at="2015-05-01T03:40:39Z">
+      <class name="com.testerhome.dataProviderTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.testerhome.dataProviderTest@357246de]" name="setUp" is-config="true" duration-ms="14557" started-at="2015-05-01T11:40:23Z" finished-at="2015-05-01T11:40:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.baidu.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="search(java.lang.String, java.lang.String)[pri:0, instance:com.testerhome.dataProviderTest@357246de]" name="search" duration-ms="1312" started-at="2015-05-01T11:40:37Z" data-provider="dataTest" finished-at="2015-05-01T11:40:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testng]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TestNG]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+      </class> <!-- com.testerhome.dataProviderTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
