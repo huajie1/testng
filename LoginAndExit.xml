@@ -3,7 +3,7 @@
 	<test name="test2">
 
 		<classes>
-			<class name="com.testerhome.loginAndExitTest"/>
+			<class name="com.testerhome.LoginAndExitTest"/>
 		</classes>
 	</test>
 </suite>
